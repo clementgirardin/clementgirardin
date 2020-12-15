@@ -1,92 +1,74 @@
 <!DOCTYPE html>
-<html lang="fr">
-<!-- Entête du document -->
-<head>
-    <meta charset="UTF-8">
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de la page -->
-    <title>Titre de la page | Nom du site</title>
-    <!-- Auteur -->
-    <meta name="author" content="Laure Dinateur">
-    <!-- Description de la page -->
-    <meta name="description" content="Description courte du contenu de la page"/>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <style>
+      
+        body { 
+            background-color: yellow;
+            font-family: arial;
+        }
+        
+        h1 {
+            color: blue;
+        }
+        
+        h6 {
+            font-family: monospace;
+        }
+        
+        h2 {
+            font-family: calibri;
+        }
+        
+        ul {
+            font-family: monospac;
+        }
+        
+    </style>
+    <body>
+        
+        <h1>Clément's blog</h1>
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- Icone de base -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16">
-</head>
-<!-- Corps du document -->
-<body>
-<!-- Entête de la page -->
-<header>
-    <!-- Titre principal de la page -->
-    <h1>Titre de la page</h1>
-
-    <!-- Menu de navigation -->
-    <nav>
-        <h2>Menu</h2>
+        <h3>Sommaire</h3>
+        
         <ul>
-            <li>
-                <a href="#section1">Section 1</a>
-            </li>
-            <li>
-                <a href="#section2">Section 2</a>
-            </li>
+            <li><a href="#GEOGRAPHIE">UN PEU DE GÉOGRAPHIE</a></li>
+            <li><a href="#DEMARCHE">LES DÉMARCHES ADMINISTRATIVES</a></li>
+            <li><a href="#MONNAIE">LA MONNAIE DES MALDIVES</a></li>
         </ul>
-    </nav>
-</header>
-
-<!-- Contenu principal de la page. Partie qui sera scannée par les robots -->
-<main>
-
-    <!-- 1re section de contenu. Obligatoire uniquement si le document à plusieurs sections -->
-    <section id="section1">
-        <h2>Titre section 1 du document</h2>
-
-        <img src="../img/html_for_babies.jpg" alt="Photo du livre HTML for babies">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </section>
-
-    <section id="section2">
-        <h2>Titre section 2 du document</h2>
-
-        <article>
-            <h3>Titre article 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-        </article>
-
-        <article>
-            <h3>Titre article 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-        </article>
-
-    </section>
-</main>
-
-<!-- Contenu secondaire. Pas scanné par les robots -->
-<aside>
-    <h2>Contenu secondaire</h2>
-    <ol>
-        <li>élément 1</li>
-        <li>élément 2</li>
-        <li>élément 3</li>
-    </ol>
-</aside>
-
-<!-- Pied de page de la page -->
-<footer>
-    &copy;2018 Jean Némarre
-</footer>
-</body>
+        
+        <h2>Un peu de Géographie</h2>
+        
+        <p id ="GEOGRAPHIE">
+            La République des Maldives est un état insulaire de l’océan Indien.
+            Pays d’Asie du Sud, les Maldives sont une fascinante chaîne de 26 atolls,
+            composée de plus de 1 200 îles coralliennes, dont 200 sont habitées
+            et une 100ène investit par les marques hôtelières.
+            Avec le réchauffement climatiqu e et la montée des eaux, les îles sont menacées de disparition.
+        </p>
+        
+        <h6>Poster le 23.05.2019</h6>
+        
+        <h2>Les démarches administratives</h2>
+        
+        <p id ="DEMARCHE">
+            Être en possession d’une passeport valide au moins 6 mois avant la fin de votre séjour – à vérifier avant de booker votre voyage.
+        </p>
+        
+        <h6>Poster le 23.05.2019</h6>
+        
+        <h2>La monnaie des Maldives</h2>
+        
+        <p id ="MONNAIE">
+            La monnaie locale est la roupie maldivienne.
+            Néanmoins l’euro est accepté partout. Le dollar est très apprécié.
+            De vous à moi, je n’ai quasiment rien dépensé sur-place et j’ai réglé mes quelques achats en carte bleue.             .
+        </p>
+        
+        <h6>Poster le 23.05.2019</h6>
+       
+    </body>
 </html>
